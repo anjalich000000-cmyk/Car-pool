@@ -7,7 +7,7 @@ public class DBConnection {
 
     private static final String URL = "jdbc:postgresql://localhost:5432/carpool_db";
     private static final String USER = "postgres";
-    private static final String PASSWORD = "Anj@li183109";
+    private static final String PASSWORD = "";
 
     public static Connection getConnection() {
         try {
@@ -17,4 +17,5 @@ public class DBConnection {
             return null;
         }
     }
+
 }
